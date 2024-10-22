@@ -1,0 +1,17 @@
+{
+    "name": "jacekchmera/sportradar-library",
+    "description": "Test task",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Jacekchmera\\SportradarLibrary\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jacek Chmera",
+            "email": "jacek.chmera@wskz.pl"
+        }
+    ],
+    "require": {}
+}
