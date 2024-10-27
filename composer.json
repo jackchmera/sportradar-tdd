@@ -13,5 +13,10 @@
             "email": "jacek.chmera@wskz.pl"
         }
     ],
-    "require": {}
+    "require": {
+        "php": "^8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.4"
+    }
 }
