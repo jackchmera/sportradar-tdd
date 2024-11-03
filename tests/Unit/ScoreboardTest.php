@@ -160,8 +160,7 @@ class ScoreboardTest extends TestCase
         $awayTeam = new Team($awayTeamName);
 
         $game = $this->scoreboard->startGame(homeTeam: $homeTeam, awayTeam: $awayTeam, startTime: $startTime);
-
-        // Aktualizujemy wynik gry
+        
         $this->scoreboard->updateScore(
             homeTeam: $homeTeam,
             awayTeam: $awayTeam,
